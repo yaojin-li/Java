@@ -1,0 +1,2 @@
+className = basics.reflection.Student
+methodName = show
