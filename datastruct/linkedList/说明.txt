@@ -1,6 +1,0 @@
-
-链表：
-1. ListNode 定义链表节点；
-2. LinkedLists 定义链表头结点、插入节点生成链表、遍历链表；
-3. ReverseList 反转链表；
-
