@@ -1,5 +1,3 @@
-package annotaion;
-
 /**
  * @Description: --------------------------------------
  * @ClassName: FruitRun.java

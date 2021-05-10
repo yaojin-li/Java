@@ -1,11 +1,10 @@
-package annotaion;
 
 import java.lang.annotation.*;
 
 /**
  * @Description: --------------------------------------
- * @ClassName: FruitColor.java
- * @Date: 2020/2/2 21:18
+ * @ClassName: FruitName.java
+ * @Date: 2020/2/2 21:15
  * @SoftWare: IntelliJ IDEA
  * --------------------------------------
  * @Author: lixj
@@ -14,8 +13,6 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface FruitColor {
-    public enum Color {BLUE, RED, GREEN}
-
-    Color fruitColor() default Color.GREEN;
+public @interface FruitName {
+    String value() default "";
 }

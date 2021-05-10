@@ -1,11 +1,9 @@
-package annotaion;
-
 import java.lang.annotation.*;
 
 /**
  * @Description: --------------------------------------
- * @ClassName: FruitName.java
- * @Date: 2020/2/2 21:15
+ * @ClassName: FruitProvider.java
+ * @Date: 2020/2/2 21:21
  * @SoftWare: IntelliJ IDEA
  * --------------------------------------
  * @Author: lixj
@@ -14,6 +12,13 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface FruitName {
-    String value() default "";
+public @interface FruitProvider {
+    // 供应商编号
+    public int id() default -1;
+
+    // 供应商名称
+    public String name() default "";
+
+    // 供应商地址
+    public String address() default "";
 }

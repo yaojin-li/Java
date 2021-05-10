@@ -1,5 +1,3 @@
-package annotaion;
-
 import java.lang.reflect.Field;
 
 /**
