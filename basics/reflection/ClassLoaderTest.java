@@ -3,7 +3,7 @@ package reflection;
 /**
  * @Description: 测试类加载
  * --------------------------------------
- * @ClassName: ClassLoader.java
+ * @ClassName: ClassLoaderTest.java
  * @Date: 2021/5/14 11:26
  * @SoftWare: IntelliJ IDEA
  * --------------------------------------
@@ -11,7 +11,7 @@ package reflection;
  * @Contact: lixj_zj@163.com
  **/
 @SuppressWarnings("all")
-public class ClassLoader {
+public class ClassLoaderTest {
     static {
         System.out.println("ClassLoader类静态代码块初始化");
     }

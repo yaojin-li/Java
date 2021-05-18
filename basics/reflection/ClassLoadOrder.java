@@ -10,6 +10,7 @@ package reflection;
  * @Author: lixj
  * @Contact: lixj_zj@163.com
  **/
+@SuppressWarnings("all")
 public class ClassLoadOrder {
     public static void main(String[] args) throws ClassNotFoundException {
         //获取系统的类加载器
