@@ -34,6 +34,9 @@ public class MySellHandler implements InvocationHandler {
             res = price;
         }
 
+        // 输出当前方法
+        System.out.println(method.getName());
+
         // 功能增强
         System.out.println("返回优惠券");
         return res;

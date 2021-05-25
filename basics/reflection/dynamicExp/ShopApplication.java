@@ -33,6 +33,7 @@ public class ShopApplication {
         );
 
         // 4. 调用方法
-        System.out.println(usbSale.sale(100));
+//        System.out.println(usbSale.sale(100));
+        usbSale.hello();
     }
 }
