@@ -1,4 +1,4 @@
-package juc;
+package juc.volatileDemo;
 
 import java.util.concurrent.TimeUnit;
 
