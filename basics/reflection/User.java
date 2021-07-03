@@ -15,6 +15,12 @@ public class User {
     public int height;
     protected String address;
 
+    public User(int age, String name, int height) {
+        this.age = age;
+        this.name = name;
+        this.height = height;
+    }
+
     User() {
     }
 
