@@ -4,7 +4,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * @Description: --------------------------------------
+ * @Description: 自旋锁
+ * --------------------------------------
  * @ClassName: SpinLock.java
  * @Date: 2021/7/14 23:08
  * @SoftWare: IntelliJ IDEA
